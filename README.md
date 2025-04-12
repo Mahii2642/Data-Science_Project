@@ -1,7 +1,7 @@
 # Data-Science_Project
 
 Problem Statement:
-Analyze the trend in school establishments across Indian states over the years and identify which types of school management (e.g., Government, Private, Local Body) have seen the most growth.
+Analyze the trend in school establishments across Indian states over the years and identify which types of school management (e.g., Government, Private, Local Body) have seen the most growth .
 
 Objective:
 1. Identify Growth Trends – Analyze how school establishments have changed over the years and predict future trends .  
