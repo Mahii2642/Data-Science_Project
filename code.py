@@ -2,11 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
-
 # Load the dataset
 df = pd.read_csv("C:\\Users\\mailt\\Desktop\\Number of Schools by Management and Year of Establishment _Report type - State-wise_22 (2).csv")
-
 
 # Check structure
 print(df.head())
