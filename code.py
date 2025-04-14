@@ -25,6 +25,7 @@ plt.show()
 #2. Track and visualize the total number of schools increasing over time.
 yearly_data = df.groupby('Establishment Year')['Total School'].sum().reset_index()
 yearly_data['Cumulative Count'] = yearly_data['Total School'].cumsum()
+yearly_data
 plt.figure(figsize=(10, 6))
 plt.plot(yearly_data['Establishment Year'], yearly_data['Cumulative Count'], marker='o', color='blue', label='Cumulative Growth')
 plt.xlabel('Year')
@@ -43,12 +44,11 @@ spike_years = yearly_data[yearly_data['Yearly Growth (%)'] > threshold]
 print("Spike Years:", spike_years)
 plt.figure(figsize=(10, 6))
 plt.bar(yearly_data['Establishment Year'], yearly_data['Yearly Growth (%)'], color='skyblue')
-plt.axhline(y=threshold, color='red', linestyle='--', label='Spike Threshold')
 plt.xlabel('Year')
 plt.ylabel('Yearly Growth (%)')
 plt.title('Yearly Growth Percentage in School Establishments')
-plt.legend()
 plt.show()
+
 
 #4. Regional Distribution of Schools by Management Type.
 heatmap_data = df.groupby('Location')[['State Govt', 'Central Govt', 'Private', 'Govt Aided']].sum()
