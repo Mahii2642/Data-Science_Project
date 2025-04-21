@@ -9,3 +9,4 @@ Objective:
 3. Private vs. Government Schools – Compare the growth of private schools against government-funded schools.  
 4. Peak and Low Years Analysis– Identify the years with the highest and lowest school establishment rates.  
 5. Cumulative Growth Visualization– Track and visualize the total number of schools increasing over time.
+  
